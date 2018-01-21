@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9DFB6EBB2014AA0A007801B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBA2014AA0A007801B4 /* AppDelegate.swift */; };
-		9DFB6EBD2014AA0A007801B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBC2014AA0A007801B4 /* ViewController.swift */; };
+		9DFB6EBD2014AA0A007801B4 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBC2014AA0A007801B4 /* ContainerVC.swift */; };
 		9DFB6EC02014AA0A007801B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBE2014AA0A007801B4 /* Main.storyboard */; };
 		9DFB6EC22014AA0A007801B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB6EC12014AA0A007801B4 /* Assets.xcassets */; };
 		9DFB6EC52014AA0A007801B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB6EC32014AA0A007801B4 /* LaunchScreen.storyboard */; };
+		9DFB6ECD2014AD0B007801B4 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6ECC2014AD0B007801B4 /* SideMenuVC.swift */; };
+		9DFB6ECF2014B012007801B4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6ECE2014B012007801B4 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DFB6EB72014AA0A007801B4 /* DayHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFB6EBA2014AA0A007801B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DFB6EBC2014AA0A007801B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DFB6EBC2014AA0A007801B4 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		9DFB6EBF2014AA0A007801B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DFB6EC12014AA0A007801B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DFB6EC42014AA0A007801B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DFB6EC62014AA0A007801B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFB6ECC2014AD0B007801B4 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		9DFB6ECE2014B012007801B4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				9DFB6EBA2014AA0A007801B4 /* AppDelegate.swift */,
-				9DFB6EBC2014AA0A007801B4 /* ViewController.swift */,
+				9DFB6EBC2014AA0A007801B4 /* ContainerVC.swift */,
 				9DFB6EBE2014AA0A007801B4 /* Main.storyboard */,
 				9DFB6EC12014AA0A007801B4 /* Assets.xcassets */,
 				9DFB6EC32014AA0A007801B4 /* LaunchScreen.storyboard */,
 				9DFB6EC62014AA0A007801B4 /* Info.plist */,
+				9DFB6ECC2014AD0B007801B4 /* SideMenuVC.swift */,
+				9DFB6ECE2014B012007801B4 /* MainVC.swift */,
 			);
 			path = DayHelper;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFB6EBD2014AA0A007801B4 /* ViewController.swift in Sources */,
+				9DFB6EBD2014AA0A007801B4 /* ContainerVC.swift in Sources */,
 				9DFB6EBB2014AA0A007801B4 /* AppDelegate.swift in Sources */,
+				9DFB6ECF2014B012007801B4 /* MainVC.swift in Sources */,
+				9DFB6ECD2014AD0B007801B4 /* SideMenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
