@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		9DFB6EBB2014AA0A007801B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBA2014AA0A007801B4 /* AppDelegate.swift */; };
-		9DFB6EBD2014AA0A007801B4 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBC2014AA0A007801B4 /* ContainerVC.swift */; };
+		9DFB6EBD2014AA0A007801B4 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBC2014AA0A007801B4 /* ContainerViewController.swift */; };
 		9DFB6EC02014AA0A007801B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB6EBE2014AA0A007801B4 /* Main.storyboard */; };
 		9DFB6EC22014AA0A007801B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB6EC12014AA0A007801B4 /* Assets.xcassets */; };
 		9DFB6EC52014AA0A007801B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB6EC32014AA0A007801B4 /* LaunchScreen.storyboard */; };
-		9DFB6ECD2014AD0B007801B4 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6ECC2014AD0B007801B4 /* SideMenuVC.swift */; };
-		9DFB6ECF2014B012007801B4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6ECE2014B012007801B4 /* MainVC.swift */; };
+		9DFB6ECD2014AD0B007801B4 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6ECC2014AD0B007801B4 /* SideMenuViewController.swift */; };
+		9DFB6ECF2014B012007801B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6ECE2014B012007801B4 /* MainViewController.swift */; };
+		9DFB6EDB201503A7007801B4 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EDA201503A7007801B4 /* NotesViewController.swift */; };
+		9DFB6EDD20150469007801B4 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EDC20150469007801B4 /* NoteTableViewCell.swift */; };
+		9DFB6EDF20151B16007801B4 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EDE20151B16007801B4 /* NoteViewController.swift */; };
+		9DFB6EE120151F75007801B4 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EE020151F75007801B4 /* RealmService.swift */; };
+		9DFB6EE320152140007801B4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB6EE220152140007801B4 /* Note.swift */; };
+		EB7B58A57AA3A50A519DEE74 /* Pods_DayHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BAE263A875B474B8374462 /* Pods_DayHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40BAE263A875B474B8374462 /* Pods_DayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F1E7B3803AF5DDB8893BB8 /* Pods-DayHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayHelper/Pods-DayHelper.release.xcconfig"; sourceTree = "<group>"; };
+		6CBED3C4750032110E1D4A06 /* Pods-DayHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayHelper/Pods-DayHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		9DFB6EB72014AA0A007801B4 /* DayHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFB6EBA2014AA0A007801B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DFB6EBC2014AA0A007801B4 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		9DFB6EBC2014AA0A007801B4 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		9DFB6EBF2014AA0A007801B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DFB6EC12014AA0A007801B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DFB6EC42014AA0A007801B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DFB6EC62014AA0A007801B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DFB6ECC2014AD0B007801B4 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
-		9DFB6ECE2014B012007801B4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		9DFB6ECC2014AD0B007801B4 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		9DFB6ECE2014B012007801B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9DFB6EDA201503A7007801B4 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		9DFB6EDC20150469007801B4 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		9DFB6EDE20151B16007801B4 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		9DFB6EE020151F75007801B4 /* RealmService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		9DFB6EE220152140007801B4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7B58A57AA3A50A519DEE74 /* Pods_DayHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8036730EDE07EA0A1D1FA05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BAE263A875B474B8374462 /* Pods_DayHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9DFB6EAE2014AA0A007801B4 = {
 			isa = PBXGroup;
 			children = (
 				9DFB6EB92014AA0A007801B4 /* DayHelper */,
 				9DFB6EB82014AA0A007801B4 /* Products */,
+				DA50B5D6D7D1431D41C9433D /* Pods */,
+				8036730EDE07EA0A1D1FA05F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +83,110 @@
 		9DFB6EB92014AA0A007801B4 /* DayHelper */ = {
 			isa = PBXGroup;
 			children = (
-				9DFB6EBA2014AA0A007801B4 /* AppDelegate.swift */,
-				9DFB6EBC2014AA0A007801B4 /* ContainerVC.swift */,
-				9DFB6EBE2014AA0A007801B4 /* Main.storyboard */,
-				9DFB6EC12014AA0A007801B4 /* Assets.xcassets */,
-				9DFB6EC32014AA0A007801B4 /* LaunchScreen.storyboard */,
+				9DFB6ED52014C45E007801B4 /* Note */,
+				9DFB6ED02014C238007801B4 /* Global */,
 				9DFB6EC62014AA0A007801B4 /* Info.plist */,
-				9DFB6ECC2014AD0B007801B4 /* SideMenuVC.swift */,
-				9DFB6ECE2014B012007801B4 /* MainVC.swift */,
 			);
 			path = DayHelper;
+			sourceTree = "<group>";
+		};
+		9DFB6ED02014C238007801B4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6ED22014C249007801B4 /* Model */,
+				9DFB6ED12014C242007801B4 /* View */,
+				9DFB6ED32014C263007801B4 /* Controller */,
+				9DFB6ED42014C272007801B4 /* Service */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		9DFB6ED12014C242007801B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6EC32014AA0A007801B4 /* LaunchScreen.storyboard */,
+				9DFB6EBE2014AA0A007801B4 /* Main.storyboard */,
+				9DFB6EC12014AA0A007801B4 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DFB6ED22014C249007801B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DFB6ED32014C263007801B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6EBA2014AA0A007801B4 /* AppDelegate.swift */,
+				9DFB6EBC2014AA0A007801B4 /* ContainerViewController.swift */,
+				9DFB6ECC2014AD0B007801B4 /* SideMenuViewController.swift */,
+				9DFB6ECE2014B012007801B4 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DFB6ED42014C272007801B4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6EE020151F75007801B4 /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9DFB6ED52014C45E007801B4 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6ED62014C470007801B4 /* Model */,
+				9DFB6ED72014C475007801B4 /* View */,
+				9DFB6ED82014C47A007801B4 /* Controller */,
+				9DFB6ED92014C488007801B4 /* Service */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		9DFB6ED62014C470007801B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6EE220152140007801B4 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DFB6ED72014C475007801B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6EDC20150469007801B4 /* NoteTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DFB6ED82014C47A007801B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB6EDA201503A7007801B4 /* NotesViewController.swift */,
+				9DFB6EDE20151B16007801B4 /* NoteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DFB6ED92014C488007801B4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DA50B5D6D7D1431D41C9433D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CBED3C4750032110E1D4A06 /* Pods-DayHelper.debug.xcconfig */,
+				55F1E7B3803AF5DDB8893BB8 /* Pods-DayHelper.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DFB6EC92014AA0A007801B4 /* Build configuration list for PBXNativeTarget "DayHelper" */;
 			buildPhases = (
+				43DF0484239F9A6D3D23125F /* [CP] Check Pods Manifest.lock */,
 				9DFB6EB32014AA0A007801B4 /* Sources */,
 				9DFB6EB42014AA0A007801B4 /* Frameworks */,
 				9DFB6EB52014AA0A007801B4 /* Resources */,
+				FBFF7EEF4B7621CEA4890E0D /* [CP] Embed Pods Frameworks */,
+				0C4098A8180DB5AFDF95B8F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,15 +259,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C4098A8180DB5AFDF95B8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DayHelper/Pods-DayHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43DF0484239F9A6D3D23125F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFF7EEF4B7621CEA4890E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DayHelper/Pods-DayHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DayHelper/Pods-DayHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DFB6EB32014AA0A007801B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFB6EBD2014AA0A007801B4 /* ContainerVC.swift in Sources */,
+				9DFB6EBD2014AA0A007801B4 /* ContainerViewController.swift in Sources */,
+				9DFB6EDB201503A7007801B4 /* NotesViewController.swift in Sources */,
+				9DFB6EDF20151B16007801B4 /* NoteViewController.swift in Sources */,
 				9DFB6EBB2014AA0A007801B4 /* AppDelegate.swift in Sources */,
-				9DFB6ECF2014B012007801B4 /* MainVC.swift in Sources */,
-				9DFB6ECD2014AD0B007801B4 /* SideMenuVC.swift in Sources */,
+				9DFB6ECF2014B012007801B4 /* MainViewController.swift in Sources */,
+				9DFB6ECD2014AD0B007801B4 /* SideMenuViewController.swift in Sources */,
+				9DFB6EDD20150469007801B4 /* NoteTableViewCell.swift in Sources */,
+				9DFB6EE320152140007801B4 /* Note.swift in Sources */,
+				9DFB6EE120151F75007801B4 /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +463,7 @@
 		};
 		9DFB6ECA2014AA0A007801B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBED3C4750032110E1D4A06 /* Pods-DayHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +479,7 @@
 		};
 		9DFB6ECB2014AA0A007801B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F1E7B3803AF5DDB8893BB8 /* Pods-DayHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

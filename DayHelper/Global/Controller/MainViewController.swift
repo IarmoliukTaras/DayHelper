@@ -8,17 +8,17 @@
 
 import UIKit
 
-class MainVC: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        NotificationCenter.default.addObserver(self, selector: #selector(showProfile), name: NSNotification.Name(rawValue: "showProfileView"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(showNodes), name: NSNotification.Name(rawValue: "showNodesView"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(showSettings), name: NSNotification.Name(rawValue: "showSettingsView"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(showLogOut), name: NSNotification.Name(rawValue: "showLogOutView"), object: nil)
     }
     
-    @objc func showProfile() {
-        performSegue(withIdentifier: "ShowProfile", sender: nil)
+    @objc func showNodes() {
+        performSegue(withIdentifier: "ShowNodes", sender: nil)
     }
     
     @objc func showSettings() {
@@ -30,8 +30,6 @@ class MainVC: UIViewController {
     }
     
     @IBAction func moreTapped(_ sender: Any) {
-        
-        print("more tapped")
         NotificationCenter.default.post(Notification(name: Notification.Name(rawValue: "showSideMenu")))
     }
     

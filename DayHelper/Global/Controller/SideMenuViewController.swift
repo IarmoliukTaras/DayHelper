@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SideMenuVC: UITableViewController {
+class SideMenuViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class SideMenuVC: UITableViewController {
         
         switch indexPath.row {
         case 0:
-            NotificationCenter.default.post(Notification(name: Notification.Name(rawValue: "showProfileView")))
+            NotificationCenter.default.post(Notification(name: Notification.Name(rawValue: "showNodesView")))
         case 1:
             NotificationCenter.default.post(Notification(name: Notification.Name(rawValue: "showSettingsView")))
         case 2:

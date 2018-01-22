@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContainerVC: UIViewController {
+class ContainerViewController: UIViewController {
     
     @IBOutlet weak var sideMenuConstraint: NSLayoutConstraint!
     var sideMenuOpen = false
@@ -17,21 +17,12 @@ class ContainerVC: UIViewController {
         super.viewDidLoad()
         
         NotificationCenter.default.addObserver(self, selector: #selector(showSideMenu), name: NSNotification.Name(rawValue: "showSideMenu"), object: nil)
-        
-    }
-    
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @objc func showSideMenu() {
         if sideMenuOpen {
             self.sideMenuConstraint.constant = -240
             self.sideMenuOpen = false
-            
-            
         } else {
             self.sideMenuConstraint.constant = 0
             self.sideMenuOpen = true
